@@ -1,0 +1,9 @@
+python train.py main data/imdb_sentiment_train_10k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice dan --embedding-dim 50 --num-layers 4 --num-epochs 8 --suffix-name _dan_10k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+python train.py main data/imdb_sentiment_train_15k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice dan --embedding-dim 50 --num-layers 4 --num-epochs 8 --suffix-name _dan_15k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+python train.py main data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice gru --embedding-dim 50 --num-layers 4 --num-epochs 4 --suffix-name _gru_5k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+python train.py main data/imdb_sentiment_train_10k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice gru --embedding-dim 50 --num-layers 4 --num-epochs 4 --suffix-name _gru_10k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+python train.py main data/imdb_sentiment_train_15k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice gru --embedding-dim 50 --num-layers 4 --num-epochs 4 --suffix-name _gru_15k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+python train.py main data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice gru --embedding-dim 50 --num-layers 4 --num-epochs 4 --suffix-name _gru_5k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+python train.py main data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice gru --embedding-dim 50 --num-layers 4 --num-epochs 4 --suffix-name _gru_5k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+python train.py main data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --seq2vec-choice gru --embedding-dim 50 --num-layers 4 --num-epochs 4 --suffix-name _gru_5k_with_emb --pretrained-embedding-file data/glove.6B.50d.txt
+
